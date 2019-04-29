@@ -1,0 +1,15 @@
+#!usr/bin/env python
+#-*- coding:utf-8 _*-
+"""
+@author:zhoujinxin
+@file: 函数.py
+@time: 2019/04/{DAY}
+"""
+if __name__ == "__main__":
+    pass
+
+def printMe(str) :
+    print(str)
+
+
+print("周金鑫")
