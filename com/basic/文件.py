@@ -1,0 +1,13 @@
+#!usr/bin/env python
+#-*- coding:utf-8 _*-
+"""
+@author:zhoujinxin
+@file: 文件.py
+@time: 2019/04/{DAY}
+"""
+if __name__ == "__main__":
+    pass
+
+
+str = input("qingshuru:")
+print(str)
