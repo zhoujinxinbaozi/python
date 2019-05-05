@@ -12,4 +12,5 @@ if __name__ == "__main__":
     pass
 
 print(time.strftime("%Y%m%d%H%M%S", time.localtime()))
+print(time.strftime("%Y%m%d", time.localtime()))
 
