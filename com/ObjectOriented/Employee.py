@@ -26,13 +26,13 @@ class Employee:
     def displayEmployee(self):
         print("name is %s, salary is %d, x is %d, y is %d" % (self.name, self.salary, self.x, self.y))
 
-# 创建 Employee 类的第一个对象
-emp1 = Employee("Zara", 2000, 1, 2)
-# 创建 Employee 类的第二个对象
-emp2 = Employee("Manni", 5000)
-emp1.displayEmployee()
-emp2.displayEmployee()
-print("Total Employee %d" % Employee.empCount)
-# 相当于get和set方法
-setattr(emp1, "name", "zhoujinxin")
-print(getattr(emp1, "name"), ", ", getattr(emp1, "salary"))
+# # 创建 Employee 类的第一个对象
+# emp1 = Employee("Zara", 2000, 1, 2)
+# # 创建 Employee 类的第二个对象
+# emp2 = Employee("Manni", 5000)
+# emp1.displayEmployee()
+# emp2.displayEmployee()
+# print("Total Employee %d" % Employee.empCount)
+# # 相当于get和set方法
+# setattr(emp1, "name", "zhoujinxin")
+# print(getattr(emp1, "name"), ", ", getattr(emp1, "salary"))
