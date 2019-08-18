@@ -30,3 +30,7 @@ if __name__ == "__main__":
 
 emp = Employee("zhoujinxin", 123)
 emp.displayEmployee()
+
+str = "abb"
+print(str[0:-1]) # [ )
+print(str.find('b')) # 1 第一次出现的位置
