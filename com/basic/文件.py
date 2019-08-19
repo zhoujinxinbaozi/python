@@ -32,10 +32,11 @@ if __name__ == "__main__":
 # print(str)
 
 # 读取文件
-file = open("D:\pythonfile\pp.txt", "r+", encoding="UTF-8")
+file = open("D:\python.txt", "r+", encoding="UTF-8")
 # print(file.read())    # 读取所有的内容
 # file.write("大家好")
 contentLines = file.readlines() # 类型为list
+print("len=%d" % len(contentLines))
 for line in contentLines:
     if(line != "\n"):
         print(line, end="")

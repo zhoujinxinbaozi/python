@@ -12,7 +12,7 @@ import random
 if __name__ == "__main__":
     pass
 
-print(abs(-89))
+print(math.abs(-89))
 print(math.log(3, 3))
 
 # 随机数

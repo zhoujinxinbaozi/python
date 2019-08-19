@@ -58,5 +58,22 @@ def am(inputStr):
 # b = am(count)
 # print(b)
 
+def isAlienSorted(StrList, Orderstr):
+    dic = {}
+    count = 0;
+    for i in range(len(Orderstr)):
+        dic[Orderstr[i:i+1]] = count
+        count += 1
+    print(dic)
+    for i in range(len(StrList)-1):
+        str1 = StrList[i]
+        str2 = StrList[i+1]
+        for j in range(min(len(str1), len(str2))):
+            if dic.get(str1[j]) > dic.get(str2[j]):
+                return False
+    return True
 
-
+l = []
+l.append('o')
+l.append('os')
+print(isAlienSorted(l,'osjfy'))
