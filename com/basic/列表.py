@@ -10,15 +10,15 @@ if __name__ == "__main__":
 
 # 列表
 listTemp = ['abcd', 786, 2.23, 'john', 70.2]
-tinylist = [123, 'john']
+tinyList = [123, 'john']
 print(listTemp)  # 输出完整列表
 print(listTemp[0])  # 输出列表的第一个元素
 print(listTemp[1:3])  # 输出第二个至第三个的元素
 print(listTemp[2:])  # 输出从第三个开始至列表末尾的所有元素
-print(tinylist * 2)  # 输出列表两次
-print(listTemp + tinylist)  # 打印组合的列表
+print(tinyList * 2)  # 输出列表两次
+print(listTemp + tinyList)  # 打印组合的列表
 del listTemp[0]  # 删除元素
-print(listTemp + tinylist)  # 打印组合的列表
+print(listTemp + tinyList)  # 打印组合的列表
 
 tumple = (123, 123, "周金鑫")
 print(list(tumple))  # 元组转列表

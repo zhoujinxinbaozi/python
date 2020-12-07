@@ -1,5 +1,5 @@
 #!usr/bin/env python
-#-*- coding:utf-8 _*-
+# -*- coding:utf-8 _*-
 """
 @author:zhoujinxin
 @file: 函数.py
@@ -10,11 +10,13 @@ import time
 if __name__ == "__main__":
     pass
 
-def printMe(str) :
-    print(str)
+
+def printMe(s):
+    print(s)
     i = 0
-    while(i < 100000) :
+    while i < 100000:
         i = i + 1
+
 
 t1 = int(round(time.time() * 1000))
 printMe("周金鑫")

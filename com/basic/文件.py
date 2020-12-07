@@ -1,5 +1,5 @@
 #!usr/bin/env python
-#-*- coding:utf-8 _*-
+# -*- coding:utf-8 _*-
 
 """
 模式	描述
@@ -18,7 +18,6 @@ ab+	以二进制格式打开一个文件用于追加。如果该文件已存在�
 
 """
 
-
 """
 @author:zhoujinxin
 @file: 文件.py
@@ -27,7 +26,6 @@ ab+	以二进制格式打开一个文件用于追加。如果该文件已存在�
 if __name__ == "__main__":
     pass
 
-
 # str = input("qingshuru:") #       键盘输入
 # print(str)
 
@@ -35,10 +33,9 @@ if __name__ == "__main__":
 file = open("D:\python.txt", "r+", encoding="UTF-8")
 # print(file.read())    # 读取所有的内容
 # file.write("大家好")
-contentLines = file.readlines() # 类型为list
+contentLines = file.readlines()  # 类型为list
 print("len=%d" % len(contentLines))
 for line in contentLines:
-    if(line != "\n"):
+    if (line != "\n"):
         print(line, end="")
 file.close()
-

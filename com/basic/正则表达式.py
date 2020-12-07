@@ -5,12 +5,11 @@
 @file: 正则表达式.py
 @time: 2019/05/{DAY}
 """
+import re
 
 """
 . 除换行符之外的所有字符
 """
-
-import re
 
 if __name__ == "__main__":
     pass
@@ -31,8 +30,6 @@ if __name__ == "__main__":
 # all = re.findall(regex, str1, re.I) # 返回列表
 # print(len(all))
 
-split = re.split(r"\d+", "123gs4") # 按照数字进行切分
+split = re.split(r"\d+", "123gs4")  # 按照数字进行切分
 print(type(split))
 print(split)
-
-

@@ -1,5 +1,5 @@
 #!usr/bin/env python
-#-*- coding:utf-8 _*-
+# -*- coding:utf-8 _*-
 
 import math
 import random
@@ -12,13 +12,10 @@ import random
 if __name__ == "__main__":
     pass
 
-print(math.abs(-89))
+print(math.fabs(-89))
 print(math.log(3, 3))
 
 # 随机数
-print(random.choice(range(10))) # 0 - 9
-print(random.randrange(0, 10, 2)) # 0 2 4 8
-print(random.random()) #[0,1)
-
-
-
+print(random.choice(range(10)))  # 0 - 9
+print(random.randrange(0, 10, 2))  # 0 2 4 8
+print(random.random())  # [0,1)
